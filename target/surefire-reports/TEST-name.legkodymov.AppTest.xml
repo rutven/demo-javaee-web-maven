@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="name.legkodymov.AppTest" time="0.06" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/sergei/workspace/task-manager/target/test-classes:/Users/sergei/workspace/task-manager/target/classes:/Users/sergei/.m2/repository/javax/enterprise/cdi-api/1.2/cdi-api-1.2.jar:/Users/sergei/.m2/repository/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0.jar:/Users/sergei/.m2/repository/javax/interceptor/javax.interceptor-api/1.2/javax.interceptor-api-1.2.jar:/Users/sergei/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/sergei/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar:/Users/sergei/.m2/repository/javax/json/javax.json-api/1.0/javax.json-api-1.0.jar:/Users/sergei/.m2/repository/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar:/Users/sergei/.m2/repository/org/eclipse/microprofile/config/microprofile-config-api/1.2/microprofile-config-api-1.2.jar:/Users/sergei/.m2/repository/org/osgi/org.osgi.annotation.versioning/1.0.0/org.osgi.annotation.versioning-1.0.0.jar:/Users/sergei/.m2/repository/org/eclipse/microprofile/fault-tolerance/microprofile-fault-tolerance-api/1.0/microprofile-fault-tolerance-api-1.0.jar:/Users/sergei/.m2/repository/org/eclipse/microprofile/health/microprofile-health-api/1.0/microprofile-health-api-1.0.jar:/Users/sergei/.m2/repository/org/eclipse/microprofile/metrics/microprofile-metrics-api/1.1/microprofile-metrics-api-1.1.jar:/Users/sergei/.m2/repository/org/eclipse/microprofile/jwt/microprofile-jwt-auth-api/1.0/microprofile-jwt-auth-api-1.0.jar:/Users/sergei/.m2/repository/org/eclipse/microprofile/openapi/microprofile-openapi-api/1.0/microprofile-openapi-api-1.0.jar:/Users/sergei/.m2/repository/org/eclipse/microprofile/rest/client/microprofile-rest-client-api/1.0/microprofile-rest-client-api-1.0.jar:/Users/sergei/.m2/repository/org/eclipse/microprofile/opentracing/microprofile-opentracing-api/1.0/microprofile-opentracing-api-1.0.jar:/Users/sergei/.m2/repository/org/apache/geronimo/specs/geronimo-atinject_1.0_spec/1.0/geronimo-atinject_1.0_spec-1.0.jar:/Users/sergei/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/sergei/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/sergei/workspace/task-manager/target/surefire/surefirebooter15049591838773629018.jar /Users/sergei/workspace/task-manager/target/surefire 2020-10-28T22-10-10_807-jvmRun1 surefire3800038628640705115tmp surefire_0886021092182947074tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/sergei/workspace/task-manager/target/test-classes:/Users/sergei/workspace/task-manager/target/classes:/Users/sergei/.m2/repository/javax/enterprise/cdi-api/1.2/cdi-api-1.2.jar:/Users/sergei/.m2/repository/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0.jar:/Users/sergei/.m2/repository/javax/interceptor/javax.interceptor-api/1.2/javax.interceptor-api-1.2.jar:/Users/sergei/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/sergei/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar:/Users/sergei/.m2/repository/javax/json/javax.json-api/1.0/javax.json-api-1.0.jar:/Users/sergei/.m2/repository/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar:/Users/sergei/.m2/repository/org/eclipse/microprofile/config/microprofile-config-api/1.2/microprofile-config-api-1.2.jar:/Users/sergei/.m2/repository/org/osgi/org.osgi.annotation.versioning/1.0.0/org.osgi.annotation.versioning-1.0.0.jar:/Users/sergei/.m2/repository/org/eclipse/microprofile/fault-tolerance/microprofile-fault-tolerance-api/1.0/microprofile-fault-tolerance-api-1.0.jar:/Users/sergei/.m2/repository/org/eclipse/microprofile/health/microprofile-health-api/1.0/microprofile-health-api-1.0.jar:/Users/sergei/.m2/repository/org/eclipse/microprofile/metrics/microprofile-metrics-api/1.1/microprofile-metrics-api-1.1.jar:/Users/sergei/.m2/repository/org/eclipse/microprofile/jwt/microprofile-jwt-auth-api/1.0/microprofile-jwt-auth-api-1.0.jar:/Users/sergei/.m2/repository/org/eclipse/microprofile/openapi/microprofile-openapi-api/1.0/microprofile-openapi-api-1.0.jar:/Users/sergei/.m2/repository/org/eclipse/microprofile/rest/client/microprofile-rest-client-api/1.0/microprofile-rest-client-api-1.0.jar:/Users/sergei/.m2/repository/org/eclipse/microprofile/opentracing/microprofile-opentracing-api/1.0/microprofile-opentracing-api-1.0.jar:/Users/sergei/.m2/repository/org/apache/geronimo/specs/geronimo-atinject_1.0_spec/1.0/geronimo-atinject_1.0_spec-1.0.jar:/Users/sergei/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/sergei/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/sergei"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/sergei/workspace/task-manager"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/sergei/workspace/task-manager/target/surefire/surefirebooter15049591838773629018.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.8+10"/>
+    <property name="user.name" value="sergei"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.13.6"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+    <property name="localRepository" value="/Users/sergei/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/j0/j7bqc1ms7b507yhjjv96v4640000gn/T/"/>
+    <property name="java.version" value="11.0.8"/>
+    <property name="user.dir" value="/Users/sergei/workspace/task-manager"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/sergei/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vm.version" value="11.0.8+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="name.legkodymov.AppTest" time="0.003"/>
+</testsuite>
